@@ -75,6 +75,43 @@ footer {
     margin-top: 100px;
     margin-left: 120px;
     color: rgb(255, 255, 255);
+    animation: move 0.5s;
+}
+
+@keyframes move {
+    0% {
+        margin-left: 90%;
+    }
+    10%{
+        margin-left: 80%;
+    }
+    20% {
+        margin-left: 70%;
+    }
+    30% {
+        margin-left: 60%;
+    }
+    40% {
+        margin-left: 50%;
+    }
+    50% {
+        margin-left: 40%;
+    }
+    60% {
+        margin-left: 30%;
+    }
+    70% {
+        margin-left: 20%;
+    }
+    80% {
+        margin-left: 10%;
+    }
+    90% {
+        margin-left: 5%;
+    }
+    100% {
+        margin-left: 120px;
+    }
 }
 
 .sentence {
@@ -84,6 +121,30 @@ footer {
     margin-top: 240px;
     margin-left: 140px;
     color: rgb(255, 238, 1);
+    animation: dance 0.5s;
+}
+@keyframes dance {
+    0%{
+        margin-left: 0px;
+    }
+    20%{
+        margin-left: 20px;
+    }
+    50%{
+        margin-left: 60px;
+    }
+    70%{
+        margin-left: 100px;
+    }
+    80%{
+        margin-left: 120px;
+    }
+    90%{
+        margin-left: 130px;
+    }
+    100%{
+        margin-left: 140px;
+    }
 }
 
 .select {
@@ -131,6 +192,11 @@ select {
     box-shadow: 20px 10px 25px rgb(9, 29, 15);
     border-radius: 50%;
     margin-left: 7%;
+}
+
+.circle:hover {
+    scale:1.1;
+    box-shadow: 20px 10px 25px rgb(255, 238, 5) ;
 }
 
 .mood-name {
