@@ -14,7 +14,7 @@ header {
 
 .introandselect {
     height: 650px;
-    background: url(Images/burger.jpg) right/cover;
+    background: url(https://i.ibb.co/f9dLVXC/burger.jpg) right/cover;
     background-repeat: no-repeat;
     /* background-position: center ;
     background-size: cover; */
@@ -207,7 +207,7 @@ select {
 }
 
 #moodbg1{
-    background:url(Images/drinks.jpg) center/cover;
+    background:url(https://i.ibb.co/8Pf48CT/drinks.webp) center/cover;
 }
 #moodbg2{
     background: url(Images/pizza.jpg) center/cover;
