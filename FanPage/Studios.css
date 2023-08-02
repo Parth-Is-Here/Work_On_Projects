@@ -72,7 +72,7 @@ body {
 .Stuname {
     color: white;
     background-color: red;
-    border: 3px solid red;
+    border: 3px dotted red;
     padding-left:10px;
     padding-right: 10px;
 }  
