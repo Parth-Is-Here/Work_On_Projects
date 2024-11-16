@@ -1,0 +1,11 @@
+video {
+    position:absolute;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    top:0;
+    left: 0;
+    width: 1920px;
+    /* min-width: 100%;
+    min-height: 100%; */
+    /* z-index:-100; */
+  }
